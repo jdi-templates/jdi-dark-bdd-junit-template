@@ -64,9 +64,6 @@
                         -Dcucumber.options="--plugin io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"
                     </argLine>
                     <printSummary>true</printSummary>
-                    <includes>
-                        <exclude>**/CucumberTest.java</exclude>
-                    </includes>
                 </configuration>
                 <dependencies>
                     <dependency>
