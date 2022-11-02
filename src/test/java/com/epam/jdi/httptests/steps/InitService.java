@@ -7,7 +7,7 @@ import static com.epam.http.requests.ServiceInit.init;
 import static com.epam.jdi.http.Utils.service;
 
 public class InitService {
-    @Given("init service example")
+    @Given("^I init service$")
     public void initService() {
         service.set(init(ServiceExample.class));
     }
