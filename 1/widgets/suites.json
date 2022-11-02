@@ -1,4 +1,1 @@
-{
-  "total" : 0,
-  "items" : [ ]
-}
+{"total":2,"items":[{"uid":"8a1448b0b2aaf709e23285aa81714549","name":"GET and POST check","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"02279d43f219f21b20820a4e76735f41","name":"Json response check","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
