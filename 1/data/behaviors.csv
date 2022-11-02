@@ -1,4 +1,4 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","GET and POST check","Simple","0","0","1","0","0"
 "","GET and POST check","Check response","0","0","2","0","0"
 "","Json response check","Check json response","0","0","1","0","0"
+"","GET and POST check","Simple","0","0","1","0","0"
