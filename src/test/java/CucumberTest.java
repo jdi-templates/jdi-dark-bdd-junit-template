@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         plugin = {"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "pretty", "summary", "json:target/cucumber-report/report.json"},
-        glue = {"com/epam/jdi/httptests/steps", "com/epam/jdi/http/stepdefs/en"}
+        glue = {"com/epam/jdi/http/stepdefs/en"}
 )
 public class CucumberTest {
 
