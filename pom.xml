@@ -31,7 +31,7 @@
         <dependency>
             <groupId>com.epam.jdi</groupId>
             <artifactId>jdi-dark-bdd</artifactId>
-            <version>LATEST</version>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -92,7 +92,6 @@
                     <argLine>
                         ${aspectj.args}
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                        -Dcucumber.options="--plugin io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"
                     </argLine>
                     <printSummary>true</printSummary>
                 </configuration>
