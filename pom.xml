@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.7</aspectj.version>
         <allure.maven.version>2.10.0</allure.maven.version>
-        <log4j2.version>2.17.1</log4j2.version>
+        <log4j2.version>2.25.3</log4j2.version>
         <profile.val>test</profile.val>
         <!-- - - add-opens java.base/java.lang=ALL-UNNAMED is needed for JDK 16+ -->
         <aspectj.args></aspectj.args>
